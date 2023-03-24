@@ -32,7 +32,6 @@ function PluginBootstrapToast(){
       e.attribute["data-bs-autohide"] = data.autohide;
       e.innerHTML[0].innerHTML[0].innerHTML = data.header;
       e.innerHTML[1].innerHTML = data.body;
-      console.log(e);
       PluginWfDom.render([e], container);
     }
     /**
