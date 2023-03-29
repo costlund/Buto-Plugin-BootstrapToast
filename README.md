@@ -21,3 +21,9 @@ By default toast is auto hiding. Set param autohide to false to make it not disa
 ```
 autohide: false
 ```
+
+### Header background
+Add background color to header to make toasts look different.
+```
+header_bg: primary
+```

@@ -1,5 +1,9 @@
-version: 1.0.1
+version: 1.1.0
 history:
+  1.1.0:
+    date: '2023-03-29'
+    title: 'Header background'
+    description: 'Add support for header background.'
   1.0.1:
     date: '2023-03-24'
     title: 'Clean up'

@@ -32,6 +32,17 @@ function PluginBootstrapToast(){
       e.attribute["data-bs-autohide"] = data.autohide;
       e.innerHTML[0].innerHTML[0].innerHTML = data.header;
       e.innerHTML[1].innerHTML = data.body;
+      /**
+       * Header background
+       */
+      if(typeof data.header_bg != 'undefined'){
+        e.innerHTML[0].attribute.class = 'toast-header text-bg-'+data.header_bg;
+      }else{
+        e.innerHTML[0].attribute.class = 'toast-header';
+      }
+      /**
+       * 
+       */
       PluginWfDom.render([e], container);
     }
     /**
@@ -54,7 +65,7 @@ function PluginBootstrapToast(){
         {
           "type": "div",
           "attribute": {
-            "class": "toast-header"
+            "class": "_set_in_action_"
           },
           "innerHTML": [
             {
