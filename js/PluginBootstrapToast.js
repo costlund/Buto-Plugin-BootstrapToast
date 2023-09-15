@@ -48,7 +48,9 @@ function PluginBootstrapToast(){
     /**
      * show
      */
-    $('#'+data.id).toast('show');
+    if( typeof $('#'+data.id).toast == 'function'){
+      $('#'+data.id).toast('show');
+    }
   }
   this.toast_element =
     {
