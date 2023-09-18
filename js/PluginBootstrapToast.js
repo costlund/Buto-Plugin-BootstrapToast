@@ -102,7 +102,7 @@ function PluginBootstrapToast(){
     {
       "type": "div",
       "attribute": {
-        "class": "toast-container position-staticzzz position-fixed bottom-0 end-0 p-3"
+        "class": "toast-container position-fixed top-0 end-0 p-3"
       },
       "innerHTML": null
     }
